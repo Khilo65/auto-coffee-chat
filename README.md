@@ -1,4 +1,4 @@
-# Auto Outreach
+# Auto Coffee Chat
 
 A customizable **Outreach Ledger** skill for Codex. It helps you research professional contacts, keep an accurate history of conversations, draft outreach, review follow-ups, coordinate meetings, and prepare for the people you meet.
 
