@@ -1,0 +1,4 @@
+interface:
+  display_name: "Outreach Ledger"
+  short_description: "Set up outreach, follow-ups and meeting briefs"
+  default_prompt: "Use $outreach-ledger to initialize a personalized outreach workspace and walk me through account, calendar and automation setup."

@@ -1,0 +1,12 @@
+# Public distribution allowlist. Runtime outreach belongs outside this repo.
+/*
+!/.gitignore
+!/README.md
+!/NOTE_FOR_A_FRIEND.md
+!/CONTRIBUTING.md
+!/outreach-ledger/
+/outreach-ledger/*
+!/outreach-ledger/SKILL.md
+!/outreach-ledger/agents/
+/outreach-ledger/agents/*
+!/outreach-ledger/agents/openai.yaml
