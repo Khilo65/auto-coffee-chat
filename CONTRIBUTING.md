@@ -19,3 +19,7 @@ Use the current Codex skill validator when available. For workflow changes, desc
 Keep setup customizable. Preserve the separation between drafts, approved actions, attempted actions, verified sends, bookings, and completed meetings. Do not promise background execution or account access that the host has not verified.
 
 When reporting results, include the denominator, observation window, channel, and definition of success. Count coffee chats separately from hiring interviews. Do not infer causality from a small uncontrolled sample.
+
+## Submit a benchmark
+
+Use the [benchmark guide](benchmarks/README.md) and [result template](benchmarks/result-template.json). Add an anonymized aggregate result under `benchmarks/results/` through a pull request, with the implementation version, observation window and known limitations. Include nonresponders and automation errors. Real outreach results and synthetic workflow checks must be labelled separately. Higher rates across different campaigns do not prove a causal improvement.

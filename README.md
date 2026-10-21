@@ -33,7 +33,7 @@ Follow-ups use the latest conversation across approved channels. The skill check
 
 ## Results and improvements
 
-The earlier workflow produced **five completed networking conversations from 53 fully tracked contacts (9.4%)**. See [the note for a friend](NOTE_FOR_A_FRIEND.md) for denominators, limits, and ideas to improve it. Historical use included manual steps; these figures are not a benchmark of the newly packaged skill.
+The earlier workflow produced **five completed networking conversations from 53 fully tracked contacts (9.4%)**. See [the note for a friend](NOTE_FOR_A_FRIEND.md) for denominators, limits, and ideas to improve it. Historical use included manual steps; these figures are not a benchmark of the newly packaged skill. The [benchmark guide](benchmarks/README.md) provides the aggregate baseline, shared metric definitions and a template for submitting results from your own version.
 
 Contributions are welcome. Start with [CONTRIBUTING.md](CONTRIBUTING.md), especially its rules for keeping personal data out of issues, examples, and commits.
 

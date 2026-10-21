@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "submission_id": null,
+  "result_type": null,
+  "implementation": {
+    "name": null,
+    "repository_url": null,
+    "commit_sha": null,
+    "automation_revision": null,
+    "execution_mode": null,
+    "changes": null
+  },
+  "cohort": {
+    "purpose": null,
+    "target_context": null,
+    "inclusion_rule": null,
+    "exclusions": null,
+    "cold_people": null,
+    "direct_recommendation_or_introduction_people": null,
+    "other_relationship_people": null
+  },
+  "observation": {
+    "method": null,
+    "first_contact_start_date": null,
+    "first_contact_end_date": null,
+    "snapshot_date": null,
+    "timezone": null,
+    "fixed_window_days": null,
+    "approximate_recorded_first_contact_age_days_min": null,
+    "approximate_recorded_first_contact_age_days_max": null,
+    "notes": null
+  },
+  "policy": {
+    "daily_linkedin_ceiling": null,
+    "followup_minimum_business_days": null,
+    "maximum_unanswered_nudges": null,
+    "notes": null
+  },
+  "counts": {
+    "contacted_people": null,
+    "initial_channel_people": {
+      "linkedin_connection_note": null,
+      "linkedin_inmail": null,
+      "email": null,
+      "other": null
+    },
+    "invitation_recipients": null,
+    "accepted_invitation_people": null,
+    "substantive_linkedin_reply_people": null,
+    "substantive_reply_people_any_channel": null,
+    "booked_chat_people": null,
+    "completed_chat_people": null,
+    "booked_meetings": null,
+    "completed_meetings": null,
+    "formal_hiring_interview_people": null,
+    "job_offer_people": null,
+    "outgoing_messages": null
+  },
+  "automation_quality": {
+    "audit_coverage": null,
+    "send_operations_reviewed": null,
+    "duplicate_send_operations": null,
+    "unauthorized_send_operations": null,
+    "bookings_reviewed_for_prep": null,
+    "complete_prep_briefs": null,
+    "known_incidents": []
+  },
+  "evidence": {
+    "level": null,
+    "public_raw_data": false,
+    "notes": null
+  },
+  "comparison": {
+    "reference_submission_id": null,
+    "design": null,
+    "limitations": []
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "submission_id": "historical-baseline",
+  "result_type": "historical_observational",
+  "implementation": {
+    "name": "Pre-packaging outreach workflow",
+    "repository_url": null,
+    "commit_sha": null,
+    "automation_revision": null,
+    "execution_mode": "hybrid",
+    "changes": "Historical drafting, coordination and preparation included manual steps. The published skill was packaged after these outcomes."
+  },
+  "cohort": {
+    "purpose": "Professional networking coffee chats",
+    "target_context": "Single target campaign; organization and sender profile withheld",
+    "inclusion_rule": "All 53 fully tracked people in the frozen campaign cohort, including nonresponders. A person contacted on several channels counts once.",
+    "exclusions": "Four additional known approaches had incomplete logs or a different target scope. They are outside the 53-person cohort.",
+    "cold_people": null,
+    "direct_recommendation_or_introduction_people": null,
+    "other_relationship_people": null
+  },
+  "observation": {
+    "method": "mixed_age_snapshot",
+    "first_contact_start_date": null,
+    "first_contact_end_date": null,
+    "snapshot_date": null,
+    "timezone": null,
+    "fixed_window_days": null,
+    "approximate_recorded_first_contact_age_days_min": 8,
+    "approximate_recorded_first_contact_age_days_max": 19,
+    "notes": "Exact dates and timezone omitted from this public aggregate. Ages are approximate, based on recorded first-contact dates that can differ from live renderings. They do not describe time since the latest outgoing message. Some follow-ups were very recent. This frozen snapshot is not a new live check."
+  },
+  "policy": {
+    "daily_linkedin_ceiling": 15,
+    "followup_minimum_business_days": 5,
+    "maximum_unanswered_nudges": 1,
+    "notes": "This describes the intended policy. Known premature follow-ups violated it; configuration is not evidence of compliance."
+  },
+  "counts": {
+    "contacted_people": 53,
+    "initial_channel_people": {
+      "linkedin_connection_note": 48,
+      "linkedin_inmail": 5,
+      "email": 0,
+      "other": 0
+    },
+    "invitation_recipients": 48,
+    "accepted_invitation_people": 11,
+    "substantive_linkedin_reply_people": 4,
+    "substantive_reply_people_any_channel": 5,
+    "booked_chat_people": 5,
+    "completed_chat_people": 5,
+    "booked_meetings": 5,
+    "completed_meetings": 5,
+    "formal_hiring_interview_people": null,
+    "job_offer_people": null,
+    "outgoing_messages": null
+  },
+  "automation_quality": {
+    "audit_coverage": "partial",
+    "send_operations_reviewed": null,
+    "duplicate_send_operations": null,
+    "unauthorized_send_operations": null,
+    "bookings_reviewed_for_prep": null,
+    "complete_prep_briefs": null,
+    "known_incidents": [
+      {
+        "category": "premature_repeated_pitch_followup",
+        "count": 3,
+        "notes": "Three known premature follow-ups repeated the initial pitch. These are the same three incidents, not two sets of three. Total automation error rates cannot be reconstructed."
+      }
+    ]
+  },
+  "evidence": {
+    "level": "private_ledger_audit_aggregate",
+    "public_raw_data": false,
+    "notes": "Aggregate counts were checked against a frozen private retrospective. The underlying contact history is intentionally not public and cannot be independently reproduced here."
+  },
+  "comparison": {
+    "reference_submission_id": null,
+    "design": "uncontrolled_historical_snapshot",
+    "limitations": [
+      "Small nonrandom cohort with uneven observation periods.",
+      "Recipient, channel and relationship mix can affect outcomes.",
+      "No causal claim about wording, automation or the newly packaged skill.",
+      "Formal hiring interviews, job offers and complete action totals are unknown.",
+      "Broader known history gives 5 of 57 completed chats (8.8%), but has incomplete logs and different scope; it is not a competing standardized cohort."
+    ]
+  }
+}

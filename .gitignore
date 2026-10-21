@@ -10,3 +10,19 @@
 !/outreach-ledger/agents/
 /outreach-ledger/agents/*
 !/outreach-ledger/agents/openai.yaml
+!/benchmarks/
+/benchmarks/*
+!/benchmarks/README.md
+!/benchmarks/result-template.json
+!/benchmarks/results/
+/benchmarks/results/*
+!/benchmarks/results/*.json
+# Never admit common private/runtime JSON names as benchmark submissions.
+**/.env*
+**/config.json
+**/profile.json
+**/contacts.json
+**/activity.json
+**/state.json
+**/credentials*.json
+**/secrets*.json
